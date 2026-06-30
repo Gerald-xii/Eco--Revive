@@ -1145,6 +1145,108 @@ footer {
   display: none;
 }
 
+/* Laptop / smaller desktop view (around 1440x820) */
+@media (min-width: 1025px) and (max-width: 1600px) {
+  header {
+    padding: 0.1rem 4rem 0.5rem 4rem;
+  }
+
+  .website__navigationBar {
+    margin-top: 0.6rem;
+  }
+
+  .navigation__links {
+    gap: 2.6rem;
+  }
+
+  .hd__slider {
+    padding: 2.5rem 4rem 3rem 4rem;
+  }
+
+  .carousel {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+  }
+
+  .slide {
+    padding: 1.6rem 1rem 2.6rem 1rem;
+  }
+
+  .slide .image__container {
+    padding-left: 3rem;
+  }
+
+  .slide .image__container img {
+    width: 82%;
+  }
+
+  .contents {
+    padding-right: 1.5rem;
+    gap: 1rem;
+  }
+
+  .contents h2 {
+    font-size: 1.55rem;
+  }
+
+  .contents p {
+    font-size: 1rem;
+  }
+
+  .important__rs {
+    margin: 0 5rem 0.5rem 5rem;
+    padding-top: 4.5rem;
+  }
+
+  .refuse {
+    margin-right: 30rem;
+  }
+
+  .reduce {
+    margin-right: 22rem;
+    margin-left: 6rem;
+  }
+
+  .reuse {
+    margin-right: 14rem;
+    margin-left: 12rem;
+  }
+
+  .recycle {
+    margin-right: 8rem;
+    margin-left: 20rem;
+  }
+
+  .rot {
+    margin-right: 2rem;
+    margin-left: 28rem;
+  }
+
+  .vpage {
+    padding: 0.1rem 4rem 0.5rem 4rem;
+  }
+
+  .problems__types__ofWaste {
+    gap: 3rem;
+    padding: 0.1rem 6rem 0.5rem 6rem;
+  }
+
+  .page {
+    max-width: 900px;
+    padding: 2rem 1.5rem;
+  }
+
+  .more {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  footer {
+    padding: 4rem 4rem 7rem 4rem;
+  }
+}
+
 /* Tablet Navigation - iPad Air & iPad Pro */
 @media (max-width: 1024px) and (min-width: 769px) {
   header {
